@@ -6,14 +6,7 @@ export class GuiModel {
 
     private _guiModel = {
         "application": {
-            "title": "ZHAW Requirements Engineering Friend Tracker (FS2023)",
-            "formList": [
-                {
-                    "id": "FriendForm",
-                    "title": "Friend",
-                    "url": "/friend",
-                    "formFieldList": [
-                        {
+            "title": "STLR Friend Tracker"  
                             "id": "familyName",
                             "type": "text",
                             "name": "FamilyName",
