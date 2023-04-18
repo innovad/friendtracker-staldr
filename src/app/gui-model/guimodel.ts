@@ -6,7 +6,14 @@ export class GuiModel {
 
     private _guiModel = {
         "application": {
-            "title": "STLR Fifi Trackers"  
+            "title": "STLR Fifi Trackers",  
+            "formList": [
+                {
+                    "id": "FriendForm",
+                    "title": "Friend",
+                    "url": "/friend",
+                    "formFieldList": [
+                        {            
                             "id": "familyName",
                             "type": "text",
                             "name": "FamilyName",
